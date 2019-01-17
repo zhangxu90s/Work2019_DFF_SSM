@@ -1,5 +1,5 @@
 # Work2019_DFF_SSM
-1. Introduction
+
 In this work, we propose a deep feature fusion model and integrate it into the most 
 popular deep learning architecture for sentence matching task. The integrated 
 architecture mainly consists of embedding layer, deep feature fusion layer, matching
