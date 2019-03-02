@@ -128,7 +128,7 @@ def new_mse_loss(y_true, y_pred):
 def mse_loss(y_true, y_pred):
     return K.mean(K.square(y_true - y_pred))
 
-def new_csloss(y_true, y_pred):
+def loss(y_true, y_pred):
     return - (1 - theta(y_true - margin) * theta(y_pred - margin) 
               - theta(1 - margin - y_true) * theta(1 - margin - y_pred)
               ) * (y_true * K.log(y_pred + 1e-8) + (1 - y_true) * K.log(1 - y_pred + 1e-8))
