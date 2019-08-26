@@ -118,7 +118,7 @@ def recall(y_true, y_pred):
 
 margin = 0.7
 theta = lambda t: (K.sign(t)+1.)/2.
-nb_classes = 10
+nb_classes = 2
 def new_mse_loss(y_true, y_pred):
     loss1 = mse_loss(y_true, y_pred)
     #one_hot
