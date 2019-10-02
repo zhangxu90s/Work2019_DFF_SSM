@@ -1,13 +1,16 @@
 # Work2019_DFF_SSM
 
-In this work, we propose a deep feature fusion model and integrate it into the most 
-popular deep learning architecture for sentence matching task. The integrated 
-architecture mainly consists of embedding layer, deep feature fusion layer, matching
-layer and prediction layer. In addition, we also comparethe commonly used loss function,
-and propose a novel hybrid loss function integratingMSE and cross entropy together, 
-considering confidence interval and threshold settingto preserve the indistinguishable
-instances in training process. To evaluate our model performance, we experiment on 
-two real world public data sets: LCQMC and Quora. The experiment results demonstrate 
-that our model outperforms the most existing advanceddeep learning models for sentence 
-matching, benefited from our enhanced loss function and deep feature fusion model 
-for capturing semantic context.
+This repo contains the implementation of "Deep Feature Fusion Model for Sentence Semantic Matching" in Keras & Tensorflow.
+# Usage for python code
+## 0. Requirement
+python 3.6  
+numpy==1.16.4  
+pandas==0.22.0  
+tensorboard==1.12.0  
+tensorflow-gpu==1.12.0  
+keras==2.2.4  
+## 1. Data preparation
+The dataset is LCQMC & Quora.  
+## 2. Start the training process
+python siamese_NN.py  
+
