@@ -18,7 +18,7 @@ The dataset is Quora & LCQMC.\
 ## 2. Start the training process
 python siamese_NN.py  
 
-## Reference
+# Reference
 If you find our source is useful, please consider citing our work.
 
 @article{zhang2019deep,\
