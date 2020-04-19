@@ -11,12 +11,9 @@ tensorflow-gpu==1.12.0
 keras==2.2.4  
 gensim==3.0.0
 ## 1. Data preparation
-The dataset is Quora & LCQMC.
-"Quora question pairs.", https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs.
-
-"LCQMC: A Large-scale Chinese Question Matching Corpus", https://www.aclweb.org/anthology/C18-1166/.
-
-2. Start the  
+The dataset is Quora & LCQMC.\
+"Quora question pairs.", https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs.\
+"LCQMC: A Large-scale Chinese Question Matching Corpus", https://www.aclweb.org/anthology/C18-1166/.\
 ## 2. Start the training process
 python siamese_NN.py  
 
