@@ -14,7 +14,7 @@ gensim==3.0.0
 The dataset is Quora & LCQMC.\
 "Quora question pairs.", https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs.
 
-"LCQMC: A Large-scale Chinese Question Matching Corpus", https://www.aclweb.org/anthology/C18-1166/.\
+"LCQMC: A Large-scale Chinese Question Matching Corpus", https://www.aclweb.org/anthology/C18-1166/.
 ## 2. Start the training process
 python siamese_NN.py  
 
