@@ -18,10 +18,10 @@ python siamese_NN.py
 ## Reference
 If you find our source is useful, please consider citing our work.
 
-@article{zhang2019deep,
-  title={Deep Feature Fusion Model for Sentence Semantic Matching},
-  author={Zhang, X and Lu, W and Li, F and Peng, X and Zhang, R},
-  journal={Computers, Materials \& Continua},
-  year={2019},
-  publisher={Computers, Materials and Continua (Tech Science Press)}
+@article{zhang2019deep,\
+  title={Deep Feature Fusion Model for Sentence Semantic Matching},\
+  author={Zhang, X and Lu, W and Li, F and Peng, X and Zhang, R},\
+  journal={Computers, Materials \& Continua},\
+  year={2019},\
+  publisher={Computers, Materials and Continua (Tech Science Press)}\
 }
