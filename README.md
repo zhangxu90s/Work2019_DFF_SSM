@@ -19,7 +19,7 @@ The dataset is Quora & LCQMC.\
 python siamese_NN.py  
 
 # Reference
-If you find our source is useful, please consider citing our work.
+If you find our source useful, please consider citing our work.
 
 @article{zhang2019deep,\
   title={Deep Feature Fusion Model for Sentence Semantic Matching},\
